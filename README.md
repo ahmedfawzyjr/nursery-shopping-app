@@ -1,117 +1,41 @@
-<div align="center">
-  <img src="assets/logo.png" width="140" alt="Nursery Shopping App App Icon / Logo" /><br />
-  <h1>Nursery Shopping App</h1>
-  <p><strong>E-commerce mobile shopping application for plant nurseries and gardening supplies built with React Native and JavaScript.</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Visibility-Public-green?style=for-the-badge" alt="Visibility" />
-    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
-    <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge" alt="Status" />
-  </p>
-</div>
+# Nursery Shopping App
 
+[![CI](https://github.com/ahmedfawzyjr/nursery-shopping-app/actions/workflows/ci.yml/badge.svg)](https://github.com/ahmedfawzyjr/nursery-shopping-app/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Issues](https://img.shields.io/github/issues/ahmedfawzyjr/nursery-shopping-app)](https://github.com/ahmedfawzyjr/nursery-shopping-app/issues) [![Stars](https://img.shields.io/github/stars/ahmedfawzyjr/nursery-shopping-app?style=social)](https://github.com/ahmedfawzyjr/nursery-shopping-app/stargazers) [![Forks](https://img.shields.io/github/forks/ahmedfawzyjr/nursery-shopping-app?style=social)](https://github.com/ahmedfawzyjr/nursery-shopping-app/network/members)
 
----
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
-## 📌 Topics & Tags
-`#ecommerce` `#frontend` `#javascript` `#mobile-app` `#react-native` `#shopping-app` `#ui-design`
+## 📌 Overview
+E-commerce mobile shopping application for plant nurseries and gardening supplies built with React Native and JavaScript.
 
----
+## ✨ Key Features
+- **Modern Architecture**: Clean, modular structure for scalability and maintainability.
+- **Automated Testing & CI/CD**: Verified GitHub Actions workflows for reliable integration.
+- **Security Policy**: Comprehensive security guidelines and vulnerability reporting standard.
 
-## 🚀 Overview & Key Features
+## 🛠️ Technology Stack
+- **Languages**: JavaScript/TypeScript/Node.js, HTML/CSS
+- **Platform**: GitHub Actions CI/CD, Cross-platform compatibility
 
-`nursery-shopping-app` is an engineered codebase optimized for modular architecture, maintainability, and enterprise-grade code standards.
-
-### ✨ Key Highlights
-- ⚡ **High Performance & Scalability**: Designed with clean separation of concerns and optimized execution logic.
-- 🔒 **Security-First Standards**: Enforced input validation, safe dependency management, and structured error handling.
-- 🎨 **Unified Visual Identity**: Integrated with physical brand assets, customized logos, and standardized design tokens.
-- 🛠️ **DevOps & Automation Ready**: Out-of-the-box support for continuous integration, automated tests, and deployment.
-
-## 🎨 Brand Identity & Visual Assets
-
-| Spec | Value |
-| :--- | :--- |
-| **Brand Name** | `App` |
-| **Primary Brand Color** | `#3B82F6` |
-| **Asset Package** | `14 Physical Assets` |
-| **App Icon Location** | `assets/logo.png` |
-| **Brand Folder** | `BRAND_ASSETS/07_MrRoad_Suite/App` |
-
-> 📌 **Brand Package Included**: App Icon PNG, Vector SVG, High-DPI raster icons, Favicons (16px to 512px), and adaptive tokens.
-
-
----
-
-## 🛠️ Technology Stack & Architecture
-
-- **Core Frameworks & Tools**: `Flutter`, `Dart`, `Clean Architecture`
-- **Architectural Pattern**: Layered Architecture (Domain, Data, Logic & UI Layers)
-- **Quality Benchmarks**: Clean Code, SOLID Principles, Strict Typing, Unit & Integration Coverage
-
----
-
-## 📂 Repository Structure
-
-```text
-nursery-shopping-app/
-├── assets/               # Brand Assets, Logos, and Media
-│   └── logo.png          # App Icon / Logo Image
-├── src/ / lib/           # Core Source Code & Modules
-├── tests/                # Automated Test Suites
-├── config/               # Environment & System Configurations
-├── docs/                 # Technical Specs & Architecture Docs
-├── README.md             # Repository Documentation
-└── package.json / pubspec / requirements.txt
-```
-
----
-
-## ⚙️ Getting Started & Local Setup
+## 🚀 Getting Started
 
 ### Prerequisites
-- Flutter SDK 3.x
-- Dart 3.x
-- Android Studio / Xcode
+Ensure you have the required runtime environment installed for `JavaScript/TypeScript/Node.js, HTML/CSS`.
 
-### Installation & Run Steps
+### Installation
+```bash
+git clone https://github.com/ahmedfawzyjr/nursery-shopping-app.git
+cd nursery-shopping-app
+```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ahmedfawzyjr/nursery-shopping-app.git
-   cd nursery-shopping-app
-   ```
+### Running Tests
+```bash
+# Execute local test suite
+npm install
+npm test
+```
 
-2. **Install Dependencies**:
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure Environment**:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. **Run Application**:
-   ```bash
-   flutter run
-   ```
-
----
-
-## 🤝 Contributing
-
-Contributions, bug reports, and feature proposals are welcome! Feel free to open an issue or pull request on [GitHub](https://github.com/ahmedfawzyjr/nursery-shopping-app/issues).
-
----
-
-## 👨‍💻 Author & Maintainer
-
-**Ahmed Fawzy**
-* GitHub: [@ahmedfawzyjr](https://github.com/ahmedfawzyjr)
-* Role: Senior Software Engineer (Mobile Architecture, Backend Systems & Infrastructure)
-
----
+## 🔒 Security
+Please review [.github/SECURITY.md](.github/SECURITY.md) for vulnerability reporting guidelines.
 
 ## 📄 License
-
-This repository is licensed under the MIT License - see the `LICENSE` file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
